@@ -5,4 +5,4 @@ web: gunicorn gettingstarted.wsgi
 # https://docs.djangoproject.com/en/5.0/topics/migrations/
 # https://devcenter.heroku.com/articles/release-phase
 
-release: ./manage.py migrate --no-input
+# release: ./manage.py migrate --no-input
